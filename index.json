@@ -1,0 +1,40 @@
+{
+	"agreement": "http",
+	"ip": "43.128.47.111",
+	"port": "8888",
+	"prefix":"/api",
+	// \是转译
+	"example":"http:\//43.128.47.111:8888/api/registered",
+	"login": {
+		"title": "登录相关",
+		"registered": {
+			"title": "注册",
+			"url": "/registered",
+			"type": "post",
+			"data": {
+				"username": "",
+				"password": ""
+			},
+			"params": {}
+		},
+		"login": {
+			"title": "登录",
+			"url": "/login",
+			"type": "post",
+			"data": {
+				"username": "",
+				"password": ""
+			},
+			"params": {}
+		},
+		"key": {
+			"title": "发送文字，返回列表，默认返回10条，倒叙",
+			"url": "/key",
+			"type": "get",
+			"data": {},
+			"params": {
+				"conten": ""
+			}
+		}
+	}
+}
